@@ -25,7 +25,7 @@
 #define CONFIG_DeadZone     Open_DeadZone_Calculate     // (开关)死区补偿算法
 #define CONFIG_BASE         BASE_Cogging_Num            // (基值)抗齿槽Q轴电流标定
 #define CONFIG_MIT          MIT_PROTOCOL_ENABLE          // (通信)MIT阻抗控制协议
-#define CONFIG_UART_MODE    UART_MODE_SWITCH_ONLY        // (串口)仅切换达妙控制模式
+#define CONFIG_UART_MODE    UART_MODE_SWITCH_ONLY        // (串口)仅切换控制模式
 
 // ============================ 安全边界 宏定义 ============================
 #define PMSM_MAX_Ctrl       3                           // 控制模式PID,LADRC,SMC,STA这4种(0-3)
